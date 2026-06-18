@@ -7,5 +7,4 @@ use azalea_protocol_macros::ClientboundGamePacket;
 pub struct ClientboundMoveVehicle {
     pub pos: Vec3,
     pub look_direction: LookDirection,
-    pub on_ground: bool
 }
